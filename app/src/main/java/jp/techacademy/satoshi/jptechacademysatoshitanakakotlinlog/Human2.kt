@@ -2,13 +2,12 @@ package jp.techacademy.satoshi.jptechacademysatoshitanakakotlinlog
 
 import android.util.Log
 
-
- open class Human : Animal, Thinkable {
-    open var hobby: String
+class Human2:Human, Thinkable {
+    override var hobby: String
     override var name: String
     override var age: Int
 
-    constructor(name: String, age: Int, hobby: String) : super(name, age) {
+    constructor(name: String, age: Int, hobby: String) : super(name, age,hobby) {
         this.name = name
         this.age = age
         this.hobby = hobby

@@ -9,11 +9,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val human = Human("千雨", 16)
+        val human = Human("千雨", 16,"魔法")
         human.say()
-
-        val human2 = Human("魔法")
         human.think()
+        val human2 = Human2("春日", 17,"不思議")
+        human2.say()
+        human2.think()
 
 
         /*val dog = Dog("ポチ", 3)//名前はポチ、年齢は3歳でインターフェースをつくる
