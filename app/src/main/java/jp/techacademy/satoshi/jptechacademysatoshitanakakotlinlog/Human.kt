@@ -3,7 +3,7 @@ package jp.techacademy.satoshi.jptechacademysatoshitanakakotlinlog
 import android.util.Log
 
 
- open class Human : Animal, Thinkable {
+open class Human : Animal, Thinkable {
     open var hobby: String
     override var name: String
     override var age: Int
@@ -16,7 +16,7 @@ import android.util.Log
     }
 
     override fun say() {
-        Log.d("kotlintest","私の名前は"+this.name+"です。"+"年は"+this.age+"歳です。")
+        Log.d("kotlintest", "私の名前は" + this.name + "です。" + "年は" + this.age + "歳です。")
     }
 
     override fun think() {
