@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         val human = Human("千雨", 16, "魔法")
         human.say()
         human.think()
-        val human2 = Human2("春日", 17, "不思議")
+        val human2 = Human("春日", 17, "不思議")
         human2.say()
         human2.think()
 
