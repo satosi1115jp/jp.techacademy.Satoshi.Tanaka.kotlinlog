@@ -5,8 +5,7 @@ import android.util.Log
 
 open class Human : Animal, Thinkable {
     open var hobby: String
-    override var name: String
-    override var age: Int
+
 
     constructor(name: String, age: Int, hobby: String) : super(name, age) {
         this.name = name
